@@ -35,7 +35,7 @@ def input_image_setup(uploaded_file):
     
 ##initialize our streamlit app
 
-st.set_page_config(page_title="Gemini Health App")
+st.set_page_config(page_title="Animal Species Detection")
 
 st.header("ANIMAL SPECIES DETECTION")
 input=st.text_input("Input Prompt: ",key="input")
